@@ -1,0 +1,139 @@
+html,
+body {
+	height: auto;
+	width: 100%;
+}
+.header-container {
+	margin-top: 150px;
+}
+.main-header {
+	flex-direction: column;
+	width: 100%;
+}
+.main-header .navbar {
+	flex-direction: column;
+}
+.navbar .header {
+	margin: 0px;
+}
+.navbar .btn-c {
+	margin-right: 0px;
+}
+.navbar-list ul {
+	flex-direction: column;
+}
+.header-body {
+	margin-top: 40px;
+	flex-direction: column;
+}
+.header-body .intro-box {
+	width: 100%;
+	text-align: center;
+}
+.text-box .kishan {
+	margin: 0px auto;
+	text-align: center;
+	font-size: 3em;
+}
+#kishan-img {
+	height: 120%;
+}
+.header-body .details-box {
+	width: 100%;
+	margin: 0px auto;
+}
+.details-box .box-1 {
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+}
+.details-box .box-1 .details {
+	text-align: center;
+	font-size: 1.3em;
+}
+.details-box .exp {
+	margin: 0px;
+	text-align: center;
+	width: 100%;
+}
+.details-box .exp .exp-text {
+	text-align: center;
+	font-size: 1.3em;
+}
+.about-container {
+	margin: 0px;
+	padding: 0px;
+	margin: 200px 0;
+	flex-direction: column-reverse;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+.about-me-container {
+	width: 88%;
+}
+.about-container .work-div {
+	width: 100%;
+	margin: 0px auto;
+	row-gap: 30px;
+}
+.work-div .code-box {
+	width: 80%;
+	margin: 0px auto;
+	height: auto;
+	padding: 20px;
+}
+.code-box .logo-text {
+	width: 60%;
+}
+.code-box h1 {
+	font-size: 1.5em;
+}
+.code-box .logo-box {
+	min-height: 50px;
+	min-width: 50px;
+}
+.logo-box i {
+	height: 50px;
+	line-height: 50px;
+}
+.about-me,
+.first-div {
+	text-align: center;
+	margin: 0px;
+}
+.about-me {
+	margin-bottom: 40px;
+}
+.first-div {
+	font-size: 0.8em;
+}
+.about-me #about-me-header {
+	font-size: 2em;
+}
+.about-me-container .para {
+	width: 100%;
+	margin: 00px;
+}
+#parag {
+	width: 100%;
+	font-size: 1.1em;
+	text-align: start;
+	line-height: 40px;
+}
+
+.portfolio-container {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+}
+.cards {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: auto;
+	row-gap: 20px;
+}
